@@ -1,0 +1,29 @@
+{
+  "name": "tickat",
+  "version": "0.1.0",
+  "author": "Travis<tw@travis.wang>",
+  "description": "A ticket system base on GitHub issue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@octokit/rest": "^16.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trawor/tickat.git"
+  },
+  "keywords": [
+    "ticket",
+    "issue",
+    "github"
+  ],
+
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trawor/tickat/issues"
+  },
+  "homepage": "https://github.com/trawor/tickat#readme"
+
+}
