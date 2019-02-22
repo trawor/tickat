@@ -39,7 +39,7 @@ const tk = new Tickat('YOUR GITHUB TOKEN', 'ORG_NAME/REPO_NAME');
 - uid(optional, the user uniq id in your own system)
 - state(optional, null means all)
 */
-const allTks = await tk.getTickets(uid, state);
+const allTks = await tk.find(uid, state);
 console.log(allTks);
 
 const newtk = await tk.create(uid, 'test2', 'hello test');

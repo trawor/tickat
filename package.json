@@ -1,6 +1,6 @@
 {
   "name": "tickat",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Travis<tw@travis.wang>",
   "description": "A ticket system base on GitHub issue",
   "main": "index.js",

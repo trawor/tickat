@@ -65,7 +65,7 @@ class Tickat {
     return data;
   }
 
-  async getTickets(uid, state) {
+  async find(uid, state) {
     let q = encodeURIComponent(`repo:${this.repo}`);
     if (uid) {
       const p1 = encodeURIComponent(`uid:${uid}`);
